@@ -8,12 +8,14 @@ const Navbar = () => {
 			<div className='mx-auto max-w-6xl'>
 				<div className='mx-4 my-2'>
 					<div className='relative flex items-center justify-between'>
-						<div className='flex flex-row items-center justify-center space-x-3'>
-							<Image src='/logo.png' alt='' width={35} height={35} />
-							<p className='text-xl font-bold hover:text-neutral-500'>
-								QuotesIO
-							</p>
-						</div>
+						<a href='/'>
+							<div className='flex flex-row items-center justify-center space-x-3'>
+								<Image src='/brain_logo.png' alt='' width={35} height={35} />
+								<p className='text-xl font-bold hover:text-neutral-500'>
+									QuotesIO
+								</p>
+							</div>
+						</a>
 						<div className='flex flex-row items-center justify-center space-x-4'>
 							<a
 								href='https://github.com/jmutakura/quotesio'

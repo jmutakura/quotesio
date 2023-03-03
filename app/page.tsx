@@ -27,7 +27,7 @@ export default function Home() {
 	}
 
 	const buttonStyling = `flex space-x-3 mr-2 font-semibold
-  text-gray-100 rounded-md ring-2 ring-slate-400 px-6 py-2 
+  text-gray-100 rounded-full ring-2 ring-slate-400 px-6 py-2 
   bg-gray-500 hover:bg-gray-700 mx-8 shadow-lg shadow-slate-800/100`;
 
 	// const quote = get_quote();
